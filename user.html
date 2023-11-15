@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body
+    {
+      background-image: url('https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
+    }
+  </style>
+  
+
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+       <!--we will have some content here later-->
+    </head>
+    <body>
+        <form class= "row p-3" action="user.php" method="post">
+            <!--New input field-->
+            <div class="col">
+              <input type="text" class="form-control" placeholder="user_id" name = "user_id" aria-label="user_id">
+            </div>
+            <!--New input field-->
+            <div class="col">
+                <input type="text" class="form-control" placeholder="name" name = "name" aria-label="name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Address" name = "Address" aria-label="Address">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="phon_number" name = "phon_number" aria-label="phon_number">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="time_line_id" name = "time_line_id" aria-label="time_line_id">
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">insert</button>
+            </div>
+          </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
